@@ -15,5 +15,5 @@ h1{
     padding: 20px;
     border: 25px;
     color: black;
-    align: center;
+    box-align: center;
 }
