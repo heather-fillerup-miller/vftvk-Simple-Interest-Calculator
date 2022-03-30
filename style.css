@@ -11,7 +11,7 @@ h1{
 
 .maindiv {
     background-color: white;
-    border: 25px;
+    border-radius: 25px;
     margin: auto;
     color: black;
     padding: 20px;
