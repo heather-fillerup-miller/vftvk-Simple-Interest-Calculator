@@ -2,7 +2,7 @@ function compute()
 {
     var principal = document.getElementById("principal").value;
     var rate = document.getElementById("rate").value;
-    var years = parseInt(document.getElementById("years"));
+    var years = document.getElementById("years").value;
     console.log("The extracted year is: " + years + " type is: " + typeof(years));
     var interest = (principal * rate) / 100;
     var year = new Date().getFullYear();
