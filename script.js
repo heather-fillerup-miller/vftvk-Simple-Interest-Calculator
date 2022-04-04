@@ -2,11 +2,11 @@ function compute()
 {
     var principal = document.getElementById("principal").value;
     var rate = document.getElementById("rate").value;
-    var years = document.getElementById("years");
+    var years = parseInt(document.getElementById("years"));
     var interest = (principal * rate) / 100;
-    var year = Date.now().getFullYear();
-    console.log("The year is: " + year);
-    year += parseInt(years);
+    var year = new Date.now().getFullYear();
+    console.log("The current year is: " + year);
+    year += years;
     result = document.getElementById("result").innerHTML= "If you deposit " + principal + 
     ", \<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of " + interest +
      " in the year " + year + "\<br>";
