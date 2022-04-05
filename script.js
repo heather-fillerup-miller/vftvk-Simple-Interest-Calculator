@@ -1,5 +1,3 @@
-console.log("Cented inputdiv");
-
 // calculate the simple interest A = P * r * t
 function compute()
 {
@@ -12,12 +10,17 @@ function compute()
     }
     // calculate total interest and display result
     else {
+        //calculate
         var rate = document.getElementById("rate").value;
         var years = parseInt(document.getElementById("years").value);
         var amount = principal * years * rate / 100;
         var currentYear = new Date().getFullYear();
         years += currentYear;
-        
+
+        //remove button
+        document.getElementById("compute").style.display = "none";
+
+        //display result
         result = document.getElementById("result").innerHTML= `If you deposit \<mark\>${principal}\</mark\>, 
         \<br\>at an interest rate of \<mark\>${rate}%\</mark\>.\<br\>You will receive an amount of \<mark\>
         ${amount}\</mark\>,\<br\>in the year \<mark\>${years}\</mark\>\<br>`;
