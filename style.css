@@ -17,3 +17,11 @@ h1{
     padding: 20px;
     width: 50%;
 }
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
