@@ -1,4 +1,4 @@
-console.log("Adjusted Form Format");
+console.log("Adjusted Form Format and Rate Slider");
 
 // calculate the simple interest A = P * r * t
 function compute()
