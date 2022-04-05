@@ -9,8 +9,14 @@ h1{
     font-family: verdana;
 }
 
-input, button, .result{
+input, .result{
   margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(232,232,232);
+  margin: 10px;
+  padding: 5px;
 }
 
 .maindiv {
