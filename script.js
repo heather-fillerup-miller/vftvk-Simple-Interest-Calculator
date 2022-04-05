@@ -1,4 +1,4 @@
-console.log("Update Title");
+console.log("Update Title and Padding");
 
 // calculate the simple interest A = P * r * t
 function compute()

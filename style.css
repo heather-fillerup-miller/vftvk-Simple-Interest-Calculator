@@ -9,8 +9,8 @@ h1{
     font-family: verdana;
 }
 
-input, span {
-    margin: 10px;
+input {
+    padding: 10px;
 }
 
 .maindiv {
@@ -25,4 +25,8 @@ input, span {
 .inputdiv {
     margin-right: auto;
     width: 50%;
+}
+
+.result {
+    padding: 10px;
 }
