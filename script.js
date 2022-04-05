@@ -1,12 +1,14 @@
+// calculate the simple interest A = P(1 + rt)
 function compute()
 {
     var principal = document.getElementById("principal").value;
-    //display error if amount is not valid
+
+    // display error if amount is not valid
     if (principal <= 0) {
         alert("Please enter valid Amount");
         document.getElementById("principal").focus();
     }
-    //calculate amount with interest and display result
+    // calculate total interest and display result
     else {
         var rate = document.getElementById("rate").value;
         var years = parseInt(document.getElementById("years").value);
@@ -20,6 +22,7 @@ function compute()
     }
 }
 
+// dynamically update the value of the interest rate with highlighted values
 function updateRate() {
     var rateval = document.getElementById("rate").value + "%";
     document.getElementById("rate_val").innerText=rateval;
