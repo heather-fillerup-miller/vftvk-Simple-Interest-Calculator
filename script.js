@@ -1,4 +1,4 @@
-console.log("Removed Input Div");
+console.log("Cented inputdiv");
 
 // calculate the simple interest A = P * r * t
 function compute()

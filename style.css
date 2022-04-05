@@ -9,8 +9,8 @@ h1{
     font-family: verdana;
 }
 
-input {
-    padding: 10px;
+input, button {
+  margin: 10px;
 }
 
 .maindiv {
@@ -19,9 +19,10 @@ input {
     margin: auto;
     color: black;
     padding: 20px;
-    width: 50%;
+    width: 70%;
 }
 
-.result {
-    padding: 10px;
+.inputdiv {
+  width: 70%;
+  margin: auto;
 }
