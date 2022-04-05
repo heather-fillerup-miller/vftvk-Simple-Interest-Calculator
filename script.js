@@ -18,7 +18,7 @@ function compute()
         years += currentYear;
 
         //remove button
-        document.getElementById("compute").style.display = "none";
+        //document.getElementById("compute").style.display = "none";
 
         //display result
         result = document.getElementById("result").innerHTML= `If you deposit \<mark\>${principal}\</mark\>, 
