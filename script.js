@@ -5,7 +5,7 @@ function compute()
 
     // display error if amount is not valid
     if (principal <= 0) {
-        alert("Please enter valid Amount");
+        alert("Please enter a positive Amount");
         document.getElementById("principal").focus();
     }
     // calculate total interest and display result
@@ -17,8 +17,8 @@ function compute()
         years += year;
         
         result = document.getElementById("result").innerHTML= `If you deposit \<mark\>${principal}\</mark\>, 
-        \<br\>at an interest rate of \<mark\>${rate}%\</mark\>\<br\>You will receive an amount of \<mark\>
-        ${amount}\</mark\> in the year \<mark\>${year}\</mark\>\<br>`;
+        \<br\>at an interest rate of \<mark\>${rate}%\</mark\>.\<br\>You will receive an amount of \<mark\>
+        ${amount}\</mark\>,\<br\>in the year \<mark\>${year}\</mark\>\<br>`;
     }
 }
 
