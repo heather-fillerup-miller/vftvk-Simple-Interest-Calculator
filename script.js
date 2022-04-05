@@ -1,4 +1,4 @@
-console.log("Update Compute Button");
+console.log("Update Compute Button and Div");
 
 // calculate the simple interest A = P * r * t
 function compute()
