@@ -1,4 +1,4 @@
-console.log("Update Title and Padding");
+console.log("Removed Input Div");
 
 // calculate the simple interest A = P * r * t
 function compute()
