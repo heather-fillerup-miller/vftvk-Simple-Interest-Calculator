@@ -1,4 +1,4 @@
-// calculate the simple interest A = P(1 + rt)
+// calculate the simple interest A = P * r * t
 function compute()
 {
     var principal = document.getElementById("principal").value;
@@ -12,13 +12,13 @@ function compute()
     else {
         var rate = document.getElementById("rate").value;
         var years = parseInt(document.getElementById("years").value);
-        var amount = principal * (1 + (years * rate / 100));
-        var year = new Date().getFullYear();
-        years += year;
+        var amount = principal * years * rate / 100;
+        var currentYear = new Date().getFullYear();
+        years += currentYear;
         
         result = document.getElementById("result").innerHTML= `If you deposit \<mark\>${principal}\</mark\>, 
         \<br\>at an interest rate of \<mark\>${rate}%\</mark\>.\<br\>You will receive an amount of \<mark\>
-        ${amount}\</mark\>,\<br\>in the year \<mark\>${year}\</mark\>\<br>`;
+        ${amount}\</mark\>,\<br\>in the year \<mark\>${years}\</mark\>\<br>`;
     }
 }
 
