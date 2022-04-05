@@ -8,30 +8,28 @@
     <div class="maindiv">
         <body>
             <h1>Simple Interest Calculator</h1>
-    
-            <input type="number"  id="principal" value="1"> 
-                Amount 
-            </input> <br/>
-            <input type="range"  id="rate" min="1" max="20" value="10.25" step= "0.25" onchange="updateRate()">
-                Interest Rate
-                <span id="rate_val"> 10.25% </span> 
-            </input> <br/>
-            <select id="years"> 
-                No. of Years
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>     
-            </select> <br/>
-            <span id="result">
-                <button onclick="compute()">Compute Interest</button>
-            </span> <br>
+            <form onsubmit="compute()">
+                <label for="principal">Amount</label>
+                <input type="number"  id="principal" value="1"/>
+                <label for="rate">Interest Rate</label>
+                <label id="ratelabel" for="rate">10.25%</label>
+                <input type="range"  id="rate" min="1" max="20" value="10.25" step= "0.25" onchange="updateRate()"/>
+                <label for="years">No. of Years</label>
+                <select id="years"> 
+                    <option value="1">1</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>     
+                </select>
+                <input type="submit" id="result" value="Compute Interest">
+            </form>
         </body>
         <footer>&#169; This Calculator belongs to Heather</footer>
     </div>
