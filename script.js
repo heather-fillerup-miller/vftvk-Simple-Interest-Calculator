@@ -11,8 +11,9 @@ function compute()
         var amount = principal * (1 + (years * rate / 100));
         var year = new Date().getFullYear();
         years += year;
+        var principalString = "\<mark\>" + principal + "\</mark\>";
         
-        result = document.getElementById("result").innerHTML= "If you deposit " + principal + 
+        result = document.getElementById("result").innerHTML= "If you deposit" + principalString + 
         ", \<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of " + amount +
          " in the year " + year + "\<br>";
     }
