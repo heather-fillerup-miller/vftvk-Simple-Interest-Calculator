@@ -3,7 +3,7 @@ function compute()
     var principal = document.getElementById("principal").value;
     if (principal <= 0) {
         alert("Please enter valid Amount");
-        document.getElementById("amount").focus;
+        document.getElementById("amount").focus();
     }
     else {
         var rate = document.getElementById("rate").value;
