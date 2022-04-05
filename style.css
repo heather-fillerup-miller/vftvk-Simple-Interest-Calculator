@@ -9,8 +9,7 @@ h1{
     font-family: verdana;
 }
 
-input {
-    display: inline;
+input, span {
     margin: 10px;
 }
 

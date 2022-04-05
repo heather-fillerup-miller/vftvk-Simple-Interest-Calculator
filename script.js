@@ -1,4 +1,4 @@
-console.log("Update Div");
+console.log("Update Span and Button");
 
 // calculate the simple interest A = P * r * t
 function compute()
