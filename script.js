@@ -1,4 +1,4 @@
-console.log("Update Span and Button");
+console.log("Update Margins");
 
 // calculate the simple interest A = P * r * t
 function compute()
