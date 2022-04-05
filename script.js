@@ -1,4 +1,4 @@
-console.log("Adjust field titles and inline display");
+console.log("Updated Title and Button");
 
 // calculate the simple interest A = P * r * t
 function compute()
