@@ -1,4 +1,4 @@
-console.log("Removed Form and updated Title");
+console.log("Adjust field titles");
 
 // calculate the simple interest A = P * r * t
 function compute()
