@@ -1,4 +1,4 @@
-console.log("Adjusted Button");
+console.log("Removed Form");
 
 // calculate the simple interest A = P * r * t
 function compute()
