@@ -13,11 +13,10 @@ function compute()
         var amount = principal * (1 + (years * rate / 100));
         var year = new Date().getFullYear();
         years += year;
-        var principalString = "\<mark\>" + principal + "\</mark\>";
         
         result = document.getElementById("result").innerHTML= `If you deposit \<mark\>${principal}\</mark\>,` 
         `\<br\>at an interest rate of \<mark\>${rate}%\</mark\>\<br\>You will receive an amount of \<mark\>`
-        `${amount}\</mark\> i in the year \<mark\>${year}\</mark\>\<br>`;
+        `${amount}\</mark\> in the year \<mark\>${year}\</mark\>\<br>`;
     }
 }
 
