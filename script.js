@@ -1,4 +1,4 @@
-console.log("Removed Form");
+console.log("Removed Form and updated Title");
 
 // calculate the simple interest A = P * r * t
 function compute()
