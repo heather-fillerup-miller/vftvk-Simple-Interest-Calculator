@@ -9,6 +9,11 @@ h1{
     font-family: verdana;
 }
 
+input {
+    display: inline;
+    margin: 10px;
+}
+
 .maindiv {
     background-color: white;
     border-radius: 25px;
@@ -18,7 +23,6 @@ h1{
     width: 50%;
 }
 
-input {
-    display: inline;
-    margin: 10px;
+.inputdiv {
+    margin: auto;
 }
