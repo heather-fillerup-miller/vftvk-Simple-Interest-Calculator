@@ -1,4 +1,4 @@
-console.log("Updated Input Margins");
+console.log("Updated Submit Button Spacing");
 
 // calculate the simple interest A = P * r * t
 function compute()
