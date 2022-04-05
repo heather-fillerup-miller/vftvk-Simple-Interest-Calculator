@@ -1,4 +1,4 @@
-console.log("Update Margins");
+console.log("Update Title");
 
 // calculate the simple interest A = P * r * t
 function compute()
